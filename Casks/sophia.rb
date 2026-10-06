@@ -41,10 +41,10 @@ cask "sophia" do
   zap trash: [
     "~/Library/Application Support/Sophia",
     "~/Library/Caches/com.zhengjiaqiao.sophia",
+    "~/Library/Logs/com.zhengjiaqiao.sophia",
     "~/Library/Preferences/com.zhengjiaqiao.sophia.plist",
     "~/Library/Saved Application State/com.zhengjiaqiao.sophia.savedState",
     "~/Library/WebKit/com.zhengjiaqiao.sophia",
-    "~/Library/Logs/com.zhengjiaqiao.sophia",
   ]
 
   caveats <<~EOS
